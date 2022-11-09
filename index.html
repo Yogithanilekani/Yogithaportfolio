@@ -1,51 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yogitha Portfolio</title>
-    <link href=""style.css" rel ="stylesheet" />
-    
-</head>
-#http://127.0.0.1:5500/index.html
-<body>
-    <nav>
-        <div>I AM A DEVELOPER</div>
-        <ul>
-            <li>
-                <a href ="/"> Home</a>
-            </li>
-            <li>
-                <a href ="/"> Projects</a>
-            </li>
-            <li>
-                <a href ="/"> Blogs</a>
-            </li>
-        </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | YogithaNilekani</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navigation container">
+      <div class="nav-brand"><a href="/">Yogitha Nilekani</a></div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/projects.html">Projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/blogs.html">Blogs</a>
+        </li>
+      </ul>
     </nav>
 
-    <hr>
-
-    <header>
-        <img src ="images/reactImage.svg" />
-        <h1>Hello! Yogitha Nilekani here</h1>
-
+    <header class="hero">
+      <img class="hero-img" src="images/hero.svg" />
+      <h1 class="hero-heading">
+        Yogitha Nilekani, the <span class="heading-inverted"> Web Developer</span>
+      </h1>
     </header>
 
-    <footer>
-        <ul>
-            
-            <li>
-                <a href ="https://www.linkedin.com/in/yogitha-nilekani-b4165b1b1/">Linkedin </a>
-            </li>
-            <li>
-                <a href ="https://github.com/Yogithanilekani"> Github </a>
-            </li>
-            <li>
-                <a href ="https://twitter.com/YogithaNilekani"> Twitter</a>
-            </li>
-        </ul>
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>Technologies</h1>
+        <p>
+            I know the basics of Python, HTML, CSS, Javascript. Git and Github are the source and version control tools I used in my projects. I am currently working in Azure cloud and Spring Boot technology. I know to deploy websites on Netlify.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container container-center">
+        <h1>Projects</h1>
+        <p>
+          I like to showcase my work and thus, you can see my projects hosted
+          online
+        </p>
+        <a class="link link-primary" href="/projects.html">See Projects</a>
+      </div>
+    </section>
+
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>Blogs</h1>
+        <p>
+          I am also working on some technical and non techincal blogs. I like to
+          document my journey of learning.
+        </p>
+        <a class="link link-secondary" href="/blogs.html">Read Blogs</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-header">Social media presence</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/neogcamp/"> github </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/neogcamp"> twitter </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://www.linkedin.com/company/neog-camp/">
+            linkedin
+          </a>
+        </li>
+      </ul>
     </footer>
-</body>
+  </body>
 </html>
